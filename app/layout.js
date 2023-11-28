@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
-      <body>
+      <body className="bg-amber-500">
         <div className="min-h-screen">
           <Alert preview={isEnabled} />
           <main>

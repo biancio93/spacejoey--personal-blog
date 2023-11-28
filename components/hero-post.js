@@ -29,9 +29,9 @@ export default function HeroPost({
             <Date dateString={date} />
           </div>
         </div>
-        <div>
+        <div className="flex flex-col justify-end">
           <p className="text-lg leading-relaxed mb-4">{excerpt}</p>
-          <Avatar name={author.name} picture={author.picture} />
+          <Avatar name={author.name} picture={author.picture} authorJobTitle={author.authorJobTitle}/>
         </div>
       </div>
     </section>

@@ -31,6 +31,7 @@ const PAGE_CONTENT_QUERY = `
       }
       author {
         name
+        authorJobTitle
         picture {
           responsiveImage(imgixParams: {fm: jpg, fit: crop, w: 100, h: 100, sat: -100}) {
             ...responsiveImageFragment
